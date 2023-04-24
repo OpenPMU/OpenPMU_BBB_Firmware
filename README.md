@@ -25,6 +25,8 @@ Firmware which achieves the functionality described in the above papers is avail
 
 With the above firmware images, it is necessary to use a u-blox GNSS (GPS) module (tested with 6th Gen or later).  These are widely available at low prices.  The firmware will send u-blox configuration messages to setup the GNSS module appropriately.  If another brand of GNSS module is used, the firmware will hang and sampled value data will not be streamed.
 
+*The firmware will NOT work with another brand of GNSS receiver.*
+
 ## How to use
 
 1. Unzip the .7z file.  This will create a microSD card image file.  
